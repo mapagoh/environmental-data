@@ -12,13 +12,13 @@ One of the main sources of air pollution in the world are greenhouse gases, traf
 
 The following graphs present environmental data on CO2 emissions due to greenhouse gases between the years 2010 and 2020, for the Netherlands and Northwestern Europe.
  
-<img src="/images/1.png" style="width: 600px">
-<img src="/images/2.png" style="width: 600px">
-<img src="/images/3.png" style="width: 600px">
-<img src="/images/4.png" style="width: 600px">
-<img src="/images/5.png" style="width: 600px">
-<img src="/images/6.png" style="width: 600px">
-<img src="/images/7.png" style="width: 600px">
+<img src="/images/1.PNG" style="width: 600px">
+<img src="/images/2.PNG" style="width: 600px">
+<img src="/images/3.PNG" style="width: 600px">
+<img src="/images/4.PNG" style="width: 600px">
+<img src="/images/5.PNG" style="width: 600px">
+<img src="/images/6.PNG" style="width: 600px">
+<img src="/images/7.PNG" style="width: 600px">
 
 The units used are tons of CO2 equivalent. It can be seen that countries such as Belgium, France, Luxembourg, the Netherlands and Switzerland have a significant decrease over the years in the tons of CO2 disposed in the air. Its air quality can be said to be relatively good compared to other countries in the world, although there are still areas of concern in terms of air pollution.
 
