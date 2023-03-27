@@ -10,15 +10,19 @@ In this case, the environmental data mainly studied are those of the Netherlands
 
 One of the main sources of air pollution in the world are greenhouse gases, traffic, industry, agriculture, among others, which over the years in some countries of the world, due to government regulation, environmental policies restrictions and investment in clean and renewable technologies have reduced percentages of air pollution for their populations. In this case, the Netherlands and Northwestern Europe have been an example of these advances, because they have a comprehensive network of monitoring stations and data from constant monitoring are always required to take appropriate and corrective measures regarding to your air quality.
 
-The following graph presents the table with environmental data on greenhouse gases between the years 2010 and 2020, from the Netherlands and Northwestern Europe.
+The following graphs present environmental data on CO2 emissions due to greenhouse gases between the years 2010 and 2020, for the Netherlands and Northwestern Europe.
  
-
-<img src="/images/Imagen1.png" style="width: 260px">
-
+<img src="/images/1.png" style="width: 600px">
+<img src="/images/2.png" style="width: 600px">
+<img src="/images/3.png" style="width: 600px">
+<img src="/images/4.png" style="width: 600px">
+<img src="/images/5.png" style="width: 600px">
+<img src="/images/6.png" style="width: 600px">
+<img src="/images/7.png" style="width: 600px">
 
 The units used are tons of CO2 equivalent. It can be seen that countries such as Belgium, France, Luxembourg, the Netherlands and Switzerland have a significant decrease over the years in the tons of CO2 disposed in the air. Its air quality can be said to be relatively good compared to other countries in the world, although there are still areas of concern in terms of air pollution.
 
-In the case of Ireland, it is constant for a few years, that tend to decrease, but a larger scale is not seen as can be seen in the other countries. It can be said that its air quality compared to other countries in the world is relatively good, but there are challenges to continue to control and reduce the emission of greenhouse gases.
+In the case of Ireland and Austria, it is constant for a few years, that tend to decrease, but a larger scale is not seen as can be seen in the other countries. It can be said that its air quality compared to other countries in the world is relatively good, but there are challenges to continue to control and reduce the emission of greenhouse gases.
 
 Although the air quality in the Netherlands and Northwestern Europe is relatively good, measures must continue to be taken to improve it, since it can affect the health of people in the long term, changes in the climate and ecosystems. One of the measures that must be taken is the use of clean transport, it is important to encourage the use of electric vehicles, bicycles, public transport, among others, this can be done through discounts on public transport, implementation of free bicycles and construction of more lanes for bucycles without altering public roads.
 
