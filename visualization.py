@@ -76,3 +76,57 @@ ax.bar(year, emissions, label=bar_labels, color=bar_colors)
 plt.title('Switzerland')
 fig.set_size_inches(10,5)
 plt.show()
+
+## visualization of water data
+
+df= pd.read_csv("data/water_clean.csv")
+
+fig, ax= plt.subplots()
+year= ['2010', '2015', '2016', '2017', '2018', '2019', '2020']
+public_water= [583.3, 568.2, 562.7, 565.8, 569.2, 570.9, 0]
+bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c']
+bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan']
+ax.bar(year, public_water, label=bar_labels, color=bar_colors)
+plt.title('Belgium')
+fig.set_size_inches(10,5)
+plt.show()
+
+fig, ax= plt.subplots()
+year= ['2010', '2015', '2016', '2017', '2018', '2019', '2020']
+public_water= [363, 345.4, 351.8, 350.2, 361.2, 354, 365.9]
+bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c']
+bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan']
+ax.bar(year, public_water, label=bar_labels, color=bar_colors)
+plt.title('Denmark')
+fig.set_size_inches(10,5)
+plt.show()
+
+fig, ax= plt.subplots()
+year= ['2010', '2015', '2016', '2017', '2018', '2019', '2020']
+public_water= [0, 42.2, 42.4, 43.2, 49.2, 43.7, 42.8]
+bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c']
+bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan']
+ax.bar(year, public_water, label=bar_labels, color=bar_colors)
+plt.title('Luxembourg')
+fig.set_size_inches(10,5)
+plt.show()
+
+fig, ax= plt.subplots()
+year= ['2010', '2015', '2016', '2017', '2018', '2019', '2020']
+public_water= [1083.60, 1077.40, 1091.40, 1097.50, 1135.00, 1121.30, 0]
+bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c']
+bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan']
+ax.bar(year, public_water, label=bar_labels, color=bar_colors)
+plt.title('Netherlands')
+fig.set_size_inches(10,5)
+plt.show()
+
+fig, ax= plt.subplots()
+year= ['2010', '2015', '2016', '2017', '2018', '2019', '2020']
+public_water= [816, 803, 804, 810, 829, 815, 824]
+bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c']
+bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan']
+ax.bar(year, public_water, label=bar_labels, color=bar_colors)
+plt.title('Switzerland')
+fig.set_size_inches(10,5)
+plt.show()
