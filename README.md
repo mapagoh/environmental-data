@@ -87,3 +87,47 @@ Excessive water consumption can have a negative impact on the environment, espec
 It can also impact climate change, since some of the processes of extracting, treating and distributing water require energy and emit greenhouse gases, therefore it can increase the country's carbon footprint and contribute to global warming.
 
 It is important that countries take immediate action regarding the use of water, promoting sustainable and efficient practices to avoid problems and ensure sustainable management of water resources, which is very important for human life, ecosystems, and aquatic life.
+
+#### Biodiversity:
+
+Biodiversity in the Netherlands and in the North West region of Europe is one of the richest and most diverse in the world despite being a densely populated and highly industrialized area. This region has managed to maintain a wide variety of terrestrial and aquatic ecosystems, as well as a wide variety of animal and plant species.
+
+One of the factors that has contributed to the conservation of biodiversity in this region is the environmental awareness of the inhabitants and local governments, through conservation and restoration policies and programs. Many natural habitats such as wetlands, forests, dunes and grasslands have been protected and restored, and measures have been implemented to reduce pollution and climate change, allowing species and ecosystems to recover and thrive.
+
+It is estimated that in the Netherlands there are around 47,000 species of animals and plants, of which 50% are invertebrate animals and around 20% are plants, it also has a great diversity of fish, with more than 75 species of water sweet and around 200 marine species. For the Northwestern region of Europe it is said that there are more than 1,300 species of birds, which represents 40% of the birds in Europe and there are some of the oldest and most diverse forests in Europe such as the Bialowieza forest, which is a world heritage site and home to species such as the European bison and the golden eagle.
+
+However, biodiversity in these regions faces challenges such as habitat fragmentation due to urbanization and infrastructure construction, water and air pollution, overfishing, and illegal hunting. Many species are also threatened due to habitat loss, pollution and climate change.
+
+The graphs presented below show some threatened species, with the aim of indicating the status of mammals, birds, freshwater fish, reptiles, amphibians and vascular plants. This representation is of percentages of species threats that have been published.
+
+For Austria, Luxembourg, Switzerland and the Netherlands, it can be seen that one of the most threatened species are reptiles and amphibians. These species are important for the ecosystem because they fulfill functions such as pest control, pollination and regulation of the food chain, they are also indicator species of ecosystem health and can indicate problems such as habitat degradation or pollution.
+
+The threat of reptiles and amphibians can also have a negative impact on biodiversity in general, since these species are an important part of biological diversity. If they disappear, the unique genetic information they possess is lost, reducing genetic variability and the ecosystem's ability to adapt to environmental changes.
+
+In the case of marine fish, there is no information for the countries of Austria and Switzerland, therefore it is not known what percentage of threat this species is.
+
+In the case of Luxembourg, there is no information on marine fish, mosses and lichens, therefore it is not known what percentage of threat these species are.
+
+<img src="/images/13.PNG" style="width: 600px">
+
+<img src="/images/16.PNG" style="width: 600px">
+
+<img src="/images/18.PNG" style="width: 600px">
+
+<img src="/images/17.PNG" style="width: 600px">
+
+For Belgium, it is noted that the most threatened species are lichens and reptiles. This can have a significant impact on ecosystems as reptiles are top predators in many ecosystems and their disappearance can destabilize food chains. Furthermore, lichens are symbiotic photosynthetic organisms that are important for air quality and as a food source for herbivores. They are also indicators of air quality, since they are very sensitive to pollution.
+
+<img src="/images/14.PNG" style="width: 600px">
+
+For Denmark, it can be seen that the most threatened species are birds and amphibians. This can have a significant impact on ecosystems and biodiversity, since amphibians are important as indicators of water quality and ecosystem health. They are also predators of insects and other invertebrates, which makes them an important element of food chains. Birds are important for pollination, seed dispersal, and pest control. Some birds are also predators and play an important role in regulating the populations of other animals.
+
+In the case of marine fish, there is no information for the country of Denmark, therefore it is not known what percentage of threat this species is.
+
+<img src="/images/15.PNG" style="width: 600px">
+
+In general, in most countries the species that are threatened with the highest percentage are above 30%. This situation is worrisome and work must be done on the conservation and restoration of ecosystems and species, as well as the awareness and education of the population on the importance of biodiversity and its regulation with the quality of life of the inhabitants and the sustainable development of the region.
+
+It is important to consider biodiversity in the design and implementation of development projects, since any human activity can have an impact on ecosystems and species, constant environmental assessments and mitigation plans must be carried out to minimize negative impacts and maximize benefits. for biodiversity. In addition, sustainable practices in industry and agriculture should be encouraged, and the use of clean and renewable technologies promoted.
+
+Biodiversity in the Netherlands and in Northwestern Europe is a natural wealth that must be protected and preserved for future generations. The community and governments must work together to ensure that development is carried out in a sustainable and environmentally friendly manner.
