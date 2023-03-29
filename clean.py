@@ -18,3 +18,12 @@ df= df[['Country', '2010', '2015', '2016', '2017', '2018', '2019', '2020']]
 df= df.loc[df['Country']. isin(['Belgium', 'Denmark', 'Luxembourg', 'Netherlands', 'Switzerland'])]
 
 df.to_csv('data/water_clean.csv')
+
+
+## clean biodiversity data
+
+df= pd.read_csv("data/biodiversity.csv")
+
+df= df.loc[df['Country']. isin(['Austria', 'Belgium', 'Denmark', 'Luxembourg', 'Netherlands', 'Switzerland'])]
+
+df.to_csv('data/biodiversity_clean.csv')

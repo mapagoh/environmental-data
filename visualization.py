@@ -130,3 +130,67 @@ ax.bar(year, public_water, label=bar_labels, color=bar_colors)
 plt.title('Switzerland')
 fig.set_size_inches(10,5)
 plt.show()
+
+## visualization of biodiversity data
+
+df= pd.read_csv("data/biodiversity_clean.csv")
+
+fig, ax= plt.subplots()
+species= ['Mammals',	'Birds',	'Reptiles',	'Amphibians',	'Fish',	'Marine Fish',	'Freshwater Fish',	'Vascular plants',	'Mosses',	'Lichens',	'Invertebrates']
+percentage_of_threat= [26,	28.8,	64.3,	57.1,	39.4,	0, 39.4,	35.8,	23.4,	21.1,	1.8]
+bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
+bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
+ax.bar(species, percentage_of_threat, label=bar_labels, color=bar_colors)
+plt.title('Austria')
+fig.set_size_inches(18,5)
+plt.show()
+
+fig, ax= plt.subplots()
+species= ['Mammals',	'Birds',	'Reptiles',	'Amphibians',	'Fish',	'Marine Fish',	'Freshwater Fish',	'Vascular plants',	'Mosses',	'Lichens',	'Invertebrates']
+percentage_of_threat= [21.4,	27.8,	40,	31.6,	20.4,	14.1,	34.9,	23.3,	26.9,	59.1,	10.8]
+bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
+bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
+ax.bar(species, percentage_of_threat, label=bar_labels, color=bar_colors)
+plt.title('Belgium')
+fig.set_size_inches(18,5)
+plt.show()
+
+fig, ax= plt.subplots()
+species= ['Mammals',	'Birds',	'Reptiles',	'Amphibians',	'Fish',	'Marine Fish',	'Freshwater Fish',	'Vascular plants',	'Mosses',	'Lichens',	'Invertebrates']
+percentage_of_threat= [12.7,	34.9,	12.5,	33.3,	3.4, 0, 14.5,	5.6,	11.3,	22.1,	14.1]
+bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
+bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
+ax.bar(species, percentage_of_threat, label=bar_labels, color=bar_colors)
+plt.title('Denmark')
+fig.set_size_inches(18,5)
+plt.show()
+
+fig, ax= plt.subplots()
+species= ['Mammals',	'Birds',	'Reptiles',	'Amphibians',	'Fish',	'Marine Fish',	'Freshwater Fish',	'Vascular plants',	'Mosses',	'Lichens',	'Invertebrates']
+percentage_of_threat= [0,	19.8,	33.3,	28.6,	27.9, 0,	27.9,	26.8,	0,	0,	15.4]
+bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
+bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
+ax.bar(species, percentage_of_threat, label=bar_labels, color=bar_colors)
+plt.title('Luxembourg')
+fig.set_size_inches(18,5)
+plt.show()
+
+fig, ax= plt.subplots()
+species= ['Mammals',	'Birds',	'Reptiles',	'Amphibians',	'Fish',	'Marine Fish',	'Freshwater Fish',	'Vascular plants',	'Mosses',	'Lichens',	'Invertebrates']
+percentage_of_threat= [18.9,	24.4,	71.4,	43.8,	23.7,	17.5,	32.5,	25.5,	23.6,	22.8,	32]
+bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
+bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
+ax.bar(species, percentage_of_threat, label=bar_labels, color=bar_colors)
+plt.title('Netherlands')
+fig.set_size_inches(18,5)
+plt.show()
+
+fig, ax= plt.subplots()
+species= ['Mammals',	'Birds',	'Reptiles',	'Amphibians',	'Fish',	'Marine Fish',	'Freshwater Fish',	'Vascular plants',	'Mosses',	'Lichens',	'Invertebrates']
+percentage_of_threat= [34,	37.1,	68.4,	73.7,	37.8,	0,	37.8,	27.2,	33.6,	32.7,	34.5]
+bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
+bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
+ax.bar(species, percentage_of_threat, label=bar_labels, color=bar_colors)
+plt.title('Switzerland')
+fig.set_size_inches(18,5)
+plt.show()
