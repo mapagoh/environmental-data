@@ -27,3 +27,12 @@ df= pd.read_csv("data/biodiversity.csv")
 df= df.loc[df['Country']. isin(['Austria', 'Belgium', 'Denmark', 'Luxembourg', 'Netherlands', 'Switzerland'])]
 
 df.to_csv('data/biodiversity_clean.csv')
+
+## clean electricity generation data
+
+df= pd.read_csv("data/electricity.csv")
+
+df= df[['Country', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']]
+df= df.loc[df['Country']. isin(['AUT', 'BEL', 'DNK', 'FRA', 'IRL', 'LUX', 'NLD', 'CHE'])]
+
+df.to_csv('data/electricity_clean.csv')

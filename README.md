@@ -4,9 +4,9 @@ Environmental data is essential for scientific research in fields related to the
 
 Environmental data can be collected numerically or qualitatively, including components such as air, water, soil, biodiversity and climate, which allow us to understand the state of the environment and how it changes over time.
 
-In this case, the environmental data mainly studied are those of the Netherlands and Northwestern Europe, in which the components of air quality, water, climate, biodiversity, and energy and emissions will be analyzed.
+In this case, the environmental data mostly studied are those of the Netherlands and Northwestern Europe, in which the components of air quality, water, biodiversity and electricity generation will be analysed. Within these components, analysis of renewable energy, CO2 emissions and water quality are also included.
 
-#### Air Quality:
+### Air Quality:
 
 One of the main sources of air pollution in the world are greenhouse gases, traffic, industry, agriculture, among others, which over the years in some countries of the world, due to government regulation, environmental policies restrictions and investment in clean and renewable technologies have reduced percentages of air pollution for their populations. In this case, the Netherlands and Northwestern Europe have been an example of these advances, because they have a comprehensive network of monitoring stations and data from constant monitoring are always required to take appropriate and corrective measures regarding to your air quality.
 
@@ -30,7 +30,7 @@ Another alternative may be the control of industrial emissions, since they are a
 
 Finally, education on air quality is recommended since public awareness is crucial to reduce this type of pollution, it is important that people understand the effects that air pollution has on the health of people and the environment and in turn what can be done to reduce this impact. This goal can be helped to be achieved through governments and non-governmental organizations, which can offer educational programs and awareness campaigns.
 
-#### Water:
+### Water:
 
 Northwestern Europe is a large region that includes several countries, water quality may vary depending on the exact location, but in general, Northwestern Europe countries have good water quality compared to other regions in the world. According to the 2018 European Environment Agency report in North-West Europe, 85.2% of bathing water is considered to be of good quality, since it meets minimum quality standards.
 
@@ -88,7 +88,7 @@ It can also impact climate change, since some of the processes of extracting, tr
 
 It is important that countries take immediate action regarding the use of water, promoting sustainable and efficient practices to avoid problems and ensure sustainable management of water resources, which is very important for human life, ecosystems, and aquatic life.
 
-#### Biodiversity:
+### Biodiversity:
 
 Biodiversity in the Netherlands and in the North West region of Europe is one of the richest and most diverse in the world despite being a densely populated and highly industrialized area. This region has managed to maintain a wide variety of terrestrial and aquatic ecosystems, as well as a wide variety of animal and plant species.
 
@@ -131,3 +131,47 @@ In general, in most countries the species that are threatened with the highest p
 It is important to consider biodiversity in the design and implementation of development projects, since any human activity can have an impact on ecosystems and species, constant environmental assessments and mitigation plans must be carried out to minimize negative impacts and maximize benefits. for biodiversity. In addition, sustainable practices in industry and agriculture should be encouraged, and the use of clean and renewable technologies promoted.
 
 Biodiversity in the Netherlands and in Northwestern Europe is a natural wealth that must be protected and preserved for future generations. The community and governments must work together to ensure that development is carried out in a sustainable and environmentally friendly manner.
+
+### Electricity generation
+
+Electricity generation in the Netherlands and Northwestern Europe has been a key issue in the fight against climate change and the reduction of greenhouse gas emissions. According to Eurostat data, in 2020 electricity generation in the Netherlands reached 120 TWh, of which 65% was produced from fossil fuels, mainly natural gas and coal. 20% of the electricity was generated from renewable sources, wind energy being the most important source, followed by biomass and solar energy.
+
+In Northwestern Europe, the situation is similar, with a high dependence on fossil fuels, although with a higher proportion of electricity generated from renewable sources. In 2020, electricity generation in the region reached 1.4 PWh, of which 44% was produced from fossil fuels and 38% from renewable sources, mainly wind and solar energy.
+
+Despite the increasing proportion of electricity generated from renewable sources, there is still a long way to go in the transition to a low carbon economy. To achieve the climate targets set out in the Paris Agreement, the proportion of electricity generated from renewable sources needs to increase significantly in the coming years.
+
+Below are graphs that include data with electricity generation between 2010 and 2020 in the Netherlands and Northwestern Europe. This indicator is measured in gigawatt hours and as a percentage of total electricity generation.
+
+For Austria, Belgium, Ireland, the Netherlands and Switzerland, it can be observed that their tendency is to continue generating electricity, this is important for the development and economic and social well-being of these countries. Electricity is a versatile and easily transportable form of energy that is needed by numerous economic sectors, including industry, agriculture, transportation, and services.
+
+Also, the availability of reliable and affordable electricity is essential to improve the quality of life of the population, since it allows access to basic services such as lighting, heating and refrigeration, as well as information technologies and communities.  In addition electricity is also needed for medical care, education and research.
+
+From an environmental perspective, electricity generation is an important factor in the fight against climate change and the reduction of greenhouse gas emissions. The energy sources used for electricity generation have a significant impact on greenhouse gas emissions and therefore climate change. The use of renewable energy sources and the improvement of energy efficiency in electricity generation are therefore essential to reduce the environmental impact of electricity generation.
+
+<img src="/images/19.PNG" style="width: 500px">
+
+<img src="/images/20.PNG" style="width: 500px">
+
+<img src="/images/23.PNG" style="width: 500px">
+
+<img src="/images/25.PNG" style="width: 500px">
+
+<img src="/images/26.PNG" style="width: 500px">
+
+For Denmark, Luxembourg and France, it is observed that their tendency is to decrease the generation of electricity, this can cause various negative effects on the economy and society. The decrease in electricity generation can have a negative impact on the country's competitiveness, since energy is a key factor in industrial production and the provision of services. The lack of electricity can affect the ability of companies to produce and compete in the market, which can have an impact on employment and economic growth.
+
+Also, it can cause a shortage of energy, which can affect the productive and service sectors, as well as homes and the population in general. This can translate into power cuts, blackouts and a decrease in the quality of life of the population.
+
+From an environmental perspective, a decrease in electricity generation can mean a greater reliance on fossil energy sources, which can increase greenhouse gas emissions and contribute to climate change.
+
+<img src="/images/21.PNG" style="width: 500px">
+
+<img src="/images/22.PNG" style="width: 500px">
+
+<img src="/images/24.PNG" style="width: 500px">
+
+In the Netherlands, a target has been set for 70% of electricity to be renewable by 2030 and 100% by 2050. To achieve these targets, measures such as the construction of offshore and onshore wind farms, the installation of of solar panels and the improvement of energy efficiency. In Northwestern Europe, the European Union has set a target of 55% of electricity being renewable by 2030, and similar measures are being implemented to achieve this target.
+
+In addition to the transition to renewable energy sources, it is also important to improve energy efficiency and encourage flexibility in the electricity system. Digitization and smart management of the electrical grid can be key to achieving greater efficiency and flexibility in the electrical system.
+
+Electricity generation in the Netherlands and Northwestern Europe is still heavily dependent on fossil fuels, although significant progress is being made towards a low-carbon economy. The transition to renewable energy sources is essential to achieve climate goals, and measures are being implemented to achieve this. It is important to continue moving in this direction and seek innovative and sustainable solutions to guarantee an energy future that is respectful of the environment.
