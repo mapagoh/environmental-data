@@ -135,146 +135,42 @@ plt.show()
 
 df= pd.read_csv("data/biodiversity_clean.csv")
 
-fig, ax= plt.subplots()
-species= ['Mammals',	'Birds',	'Reptiles',	'Amphibians',	'Fish',	'Marine Fish',	'Freshwater Fish',	'Vascular plants',	'Mosses',	'Lichens',	'Invertebrates']
-percentage_of_threat= [26,	28.8,	64.3,	57.1,	39.4,	0, 39.4,	35.8,	23.4,	21.1,	1.8]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(species, percentage_of_threat, label=bar_labels, color=bar_colors)
-plt.title('Austria')
-fig.set_size_inches(18,5)
+def graph(title, percentage):
+      species = ['Mammals', 'Birds', 'Reptiles', 'Amphibians', 'Fish', 'Marine Fish', 'Freshwater Fish', 'Vascular plants', 'Mosses', 'Lichens', 'Invertebrates']
+colors = {'Mammals': ('tab:blue', 'b'), 'Birds': ('tab:green', 'g'), 'Reptiles': ('tab:blue', 'b'), 'Amphibians': ('tab:cyan', 'c'),
+               'Fish': ('tab:red', 'r'), 'Marine Fish': ('tab:green', 'g'), 'Freshwater Fish': ('tab:cyan', 'c'), 'Vascular plants': ('tab:blue', 'b'),
+               'Mosses': ('tab:green', 'g'), 'Lichens': ('tab:blue', 'b'), 'Invertebrates': ('tab:cyan', 'c')}
+
+fig, ax = plt.subplots()
+for i, species in enumerate(species):
+        ax.bar(species, percentage[i], label=colors[species][1], color=colors[species][0])
+plt.title(title)
+fig.set_size_inches(18, 5)
 plt.show()
 
-fig, ax= plt.subplots()
-species= ['Mammals',	'Birds',	'Reptiles',	'Amphibians',	'Fish',	'Marine Fish',	'Freshwater Fish',	'Vascular plants',	'Mosses',	'Lichens',	'Invertebrates']
-percentage_of_threat= [21.4,	27.8,	40,	31.6,	20.4,	14.1,	34.9,	23.3,	26.9,	59.1,	10.8]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(species, percentage_of_threat, label=bar_labels, color=bar_colors)
-plt.title('Belgium')
-fig.set_size_inches(18,5)
-plt.show()
-
-fig, ax= plt.subplots()
-species= ['Mammals',	'Birds',	'Reptiles',	'Amphibians',	'Fish',	'Marine Fish',	'Freshwater Fish',	'Vascular plants',	'Mosses',	'Lichens',	'Invertebrates']
-percentage_of_threat= [12.7,	34.9,	12.5,	33.3,	3.4, 0, 14.5,	5.6,	11.3,	22.1,	14.1]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(species, percentage_of_threat, label=bar_labels, color=bar_colors)
-plt.title('Denmark')
-fig.set_size_inches(18,5)
-plt.show()
-
-fig, ax= plt.subplots()
-species= ['Mammals',	'Birds',	'Reptiles',	'Amphibians',	'Fish',	'Marine Fish',	'Freshwater Fish',	'Vascular plants',	'Mosses',	'Lichens',	'Invertebrates']
-percentage_of_threat= [0,	19.8,	33.3,	28.6,	27.9, 0,	27.9,	26.8,	0,	0,	15.4]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(species, percentage_of_threat, label=bar_labels, color=bar_colors)
-plt.title('Luxembourg')
-fig.set_size_inches(18,5)
-plt.show()
-
-fig, ax= plt.subplots()
-species= ['Mammals',	'Birds',	'Reptiles',	'Amphibians',	'Fish',	'Marine Fish',	'Freshwater Fish',	'Vascular plants',	'Mosses',	'Lichens',	'Invertebrates']
-percentage_of_threat= [18.9,	24.4,	71.4,	43.8,	23.7,	17.5,	32.5,	25.5,	23.6,	22.8,	32]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(species, percentage_of_threat, label=bar_labels, color=bar_colors)
-plt.title('Netherlands')
-fig.set_size_inches(18,5)
-plt.show()
-
-fig, ax= plt.subplots()
-species= ['Mammals',	'Birds',	'Reptiles',	'Amphibians',	'Fish',	'Marine Fish',	'Freshwater Fish',	'Vascular plants',	'Mosses',	'Lichens',	'Invertebrates']
-percentage_of_threat= [34,	37.1,	68.4,	73.7,	37.8,	0,	37.8,	27.2,	33.6,	32.7,	34.5]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(species, percentage_of_threat, label=bar_labels, color=bar_colors)
-plt.title('Switzerland')
-fig.set_size_inches(18,5)
-plt.show()
+graph('Austria', [26, 28.8, 64.3, 57.1, 39.4, 0, 39.4, 35.8, 23.4, 21.1, 1.8])
+graph('Belgium', [21.4, 27.8, 40, 31.6, 20.4, 14.1, 34.9, 23.3, 26.9, 59.1, 10.8])
+graph('Denmark', [12.7, 34.9, 12.5, 33.3, 3.4, 0, 14.5, 5.6, 11.3, 22.1, 14.1])
+graph('Luxembourg', [0,	19.8,	33.3,	28.6,	27.9, 0,	27.9,	26.8,	0,	0,	15.4])
+graph('Netherlands', [18.9,	24.4,	71.4,	43.8,	23.7,	17.5,	32.5,	25.5,	23.6,	22.8,	32])
+graph('Switzerland', [34,	37.1,	68.4,	73.7,	37.8,	0,	37.8,	27.2,	33.6,	32.7,	34.5])
 
 ## visualization of electricity generation data
 
 df= pd.read_csv("data/electricity_clean.csv")
 
-fig, ax= plt.subplots()
-year= ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
-electricity_generation= [67709,	62592,	69525,	65260,	62248,	61928,	64961,	68093.595,	65383.711,	71101.128,	69424.515]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(year, electricity_generation, label=bar_labels, color=bar_colors)
-plt.title('Austria')
+year = df.columns[1:]
+electricity_generation = df.values[0][1:]
+
+bar_colors = ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
+
+fig, ax = plt.subplots()
+ax.bar(year, electricity_generation, color=bar_colors)
+plt.title(country_name)
 fig.set_size_inches(10,5)
 plt.show()
 
-fig, ax= plt.subplots()
-year= ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
-electricity_generation= [91007,	87121,	79919,	80300,	69818,	67380,	82401,	83122.900,	72065.100,	89913.400,	86055.100]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(year, electricity_generation, label=bar_labels, color=bar_colors)
-plt.title('Belgium')
-fig.set_size_inches(10,5)
-plt.show()
+countries = ['AUT', 'BEL', 'DNK', 'FRA', 'IRL', 'LUX', 'NLD', 'CHE']
 
-fig, ax= plt.subplots()
-year= ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
-electricity_generation= [36872,	33549,	29200,	33138,	30815,	27921,	29081,	29638.300,	29315.485,	28689.557,	27880.596]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(year, electricity_generation, label=bar_labels, color=bar_colors)
-plt.title('Denmark')
-fig.set_size_inches(10,5)
-plt.show()
-
-fig, ax= plt.subplots()
-year= ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
-electricity_generation= [544299,	547532,	547922,	557982,	548732,	555145,	540420,	537849.217,	557797.779,	547042.793,	509273.719]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(year, electricity_generation, label=bar_labels, color=bar_colors)
-plt.title('France')
-fig.set_size_inches(10,5)
-plt.show()
-
-fig, ax= plt.subplots()
-year= ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
-electricity_generation= [27442,	26365,	26479,	25116,	25312,	27623,	29691,	30093.248,	30357.337,	30274.252,	31519.746]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(year, electricity_generation, label=bar_labels, color=bar_colors)
-plt.title('Ireland')
-fig.set_size_inches(10,5)
-plt.show()
-
-fig, ax= plt.subplots()
-year= ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
-electricity_generation= [4561,	3694,	3787,	2860,	2938,	2738,	2168,	2204.811,	2170.172,	1877.378,	2209.680]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(year, electricity_generation, label=bar_labels, color=bar_colors)
-plt.title('Luxembourg')
-fig.set_size_inches(10,5)
-plt.show()
-
-fig, ax= plt.subplots()
-year= ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
-electricity_generation= [114825,	109145,	99174,	97450,	98715,	105731,	110979,	113402.763,	110842.489,	117856.188,	120157.982]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(year, electricity_generation, label=bar_labels, color=bar_colors)
-plt.title('Netherlands')
-fig.set_size_inches(10,5)
-plt.show()
-
-fig, ax= plt.subplots()
-year= ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']
-electricity_generation= [66131,	62959,	68159,	68515,	69986,	66118,	61695,	61652.047,	67449.571,	71739.208,	70004.714]
-bar_labels= ['b', 'g', 'b', 'c', 'r', 'g', 'c', 'b', 'g', 'b', 'c']
-bar_colors= ['tab:blue', 'tab:green', 'tab:blue', 'tab:cyan', 'tab:red', 'tab:green', 'tab:cyan', 'tab:blue', 'tab:green', 'tab:blue', 'tab:cyan']
-ax.bar(year, electricity_generation, label=bar_labels, color=bar_colors)
-plt.title('Switzerland')
-fig.set_size_inches(10,5)
-plt.show()
+for country in countries:
+    plot_country(country)

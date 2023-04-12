@@ -22,9 +22,11 @@ df.to_csv('data/water_clean.csv')
 
 ## clean biodiversity data
 
-df= pd.read_csv("data/biodiversity.csv")
+countries= ['Austria', 'Belgium', 'Denmark', 'Luxembourg', 'Netherlands', 'Switzerland']
 
-df= df.loc[df['Country']. isin(['Austria', 'Belgium', 'Denmark', 'Luxembourg', 'Netherlands', 'Switzerland'])]
+df = pd.read_csv('biodiversity.csv', index_col=1)
+
+df= df.loc[df['Country']. isin(countries)]
 
 df.to_csv('data/biodiversity_clean.csv')
 
@@ -32,7 +34,9 @@ df.to_csv('data/biodiversity_clean.csv')
 
 df= pd.read_csv("data/electricity.csv")
 
-df= df[['Country', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']]
-df= df.loc[df['Country']. isin(['AUT', 'BEL', 'DNK', 'FRA', 'IRL', 'LUX', 'NLD', 'CHE'])]
-
+def plot_country(country_name):
+    df = pd.read_csv("electricity.csv")
+    df = df[['Country', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020']]
+    df = df.loc[df['Country'] == country_name]
+    
 df.to_csv('data/electricity_clean.csv')
